@@ -124,3 +124,36 @@ main{
     padding: 30px;
     border-radius: 5px;
 }
+
+
+
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    background-color: #D6DDED;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 116px;
+    
+}
+.footer-column{
+    width: 50%;
+}
+.footer-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+footer input[type="text"], footer input[type="email"]{
+    border-radius: 5px;
+   color: #757575; 
+   background-color: white;
+   display: block;
+   padding: 10px 20px;
+   margin-bottom: 24px;
+   border-style: none;
+   height: 64px;
+   width: 100%;
+}
